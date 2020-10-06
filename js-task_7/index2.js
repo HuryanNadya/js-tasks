@@ -8,14 +8,16 @@ let Teapot = function(name) {
 
     this.get = function() {
         this.power = +prompt("Введите мощность, Вт");
-        this.volume = +prompt("Введите объем чайника, мл");        
+        this.volume = +prompt("Введите объем чайника, мл"); 
+        this.start();
+        this.show();       
     }
 
     function calcTime(power, v) {
         return Math.round((v*c)/power);  
     }
     function checkVolume(min, max) {
-        return (min>=max) ? false : true;
+        return min>=max;
     }
     this.start = function() {      
         let waterVolume = +prompt("Какой объем воды заливаете в чайник? мл");  
@@ -25,12 +27,8 @@ let Teapot = function(name) {
         } else {
             alert("Объем чайника меньше заливаемого объема воды");
         }
-    }
-    function showInfo() {
-        let txt="Чайник "+this.name+"<br>"; //не работает вот такой вызов
-    }
+    }    
     this.show = function() {
-        console.log(showInfo());
         document.write("Чайник "+this.name+"<br>");
         document.write("Мощность "+this.power+"<br>");
         document.write("Объем "+this.volume+"<br>");
@@ -41,6 +39,6 @@ let Teapot = function(name) {
 
 let teapot1 = new Teapot('Centek');
 teapot1.get();
-teapot1.start();
-teapot1.show();
+// teapot1.start();
+// teapot1.show();
 
