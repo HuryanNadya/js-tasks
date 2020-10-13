@@ -15,7 +15,7 @@ title.innerHTML="Js8 Homework";
 let style=doc.createElement("style");
 
 let arrHead = [meta, link, title, style];
-let i;
+let i,j;
 for (i=0; i<arrHead.length;i++) {
     head.appendChild(arrHead[i]);
 }

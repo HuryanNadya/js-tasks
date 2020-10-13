@@ -73,7 +73,7 @@ c записалось положительное значение. Провер
         ```
     Результат функции должен вернуть строку
     
-    [kata] (https://www.codewars.com/kata/5f5802bf4c2cc4001a6f859e/train/javascript)
+    [kata](https://www.codewars.com/kata/5f5802bf4c2cc4001a6f859e/train/javascript)
     
 11. Здесь вам в аргументах даны 2 массива: 
     
@@ -81,7 +81,7 @@ c записалось положительное значение. Провер
     
     После чего склеить эти два массива, отсортировать и вернуть как результат
 
-    [kata] (https://www.codewars.com/kata/56d949281b5fdc7666000004/train/javascript)
+    [kata](https://www.codewars.com/kata/56d949281b5fdc7666000004/train/javascript)
     
 
 * Для быстрого составления регулярного выражения и проверки исп. онлайн-
